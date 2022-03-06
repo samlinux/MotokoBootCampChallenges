@@ -1,0 +1,35 @@
+{
+  "canisters": {
+    "MotokoBootCampChallenges": {
+      "main": "src/MotokoBootCampChallenges/main.mo",
+      "type": "motoko"
+    },
+    "MotokoBootCampChallenges_assets": {
+      "dependencies": [
+        "MotokoBootCampChallenges"
+      ],
+      "frontend": {
+        "entrypoint": "src/MotokoBootCampChallenges_assets/src/index.html"
+      },
+      "source": [
+        "src/MotokoBootCampChallenges_assets/assets",
+        "dist/MotokoBootCampChallenges_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.8.4",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
