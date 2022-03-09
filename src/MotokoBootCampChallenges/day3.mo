@@ -167,12 +167,26 @@ actor {
 
   /**
    * Challenge 10 : Write a higher order function contains<A> that takes 3 parameters : 
-   * an array [A] , a of type A and a function f that takes a tuple of type (A,A) and returns a boolean
+   * an array [A] , a of type A and a function f that takes a tuple of 
+   * type (A,A) and returns a boolean
    * This function should return a boolean indicating whether or not a is present in the array.
-   *
+   * dfx canister call MotokoBootCampChallenges contains '(vec{"test1";"test2"}, "test1")'
    */
-   public func contains(){
-     // a little bit out of my knowledge yet (no copy and past) 
-   }
+   public func contains(a: [Text], c: Text) : async Bool {
+     return _contains<Text>(a, c, func (_a, c) {
+       return (_a == c);
+     });
+   };
+
+   func _contains<A>(xs: [A], a: A, f : (A,A)-> Bool):Bool {
+     var i = 0;
+     while (i < xs.size()) {
+       if(f(xs[i],a)){
+         return true;
+       };
+       i += 1;
+     };
+     return false;
+   };
 };
 
