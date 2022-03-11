@@ -1,7 +1,7 @@
 {
   "canisters": {
     "MotokoBootCampChallenges": {
-      "main": "src/MotokoBootCampChallenges/day4/list.mo",
+      "main": "src/MotokoBootCampChallenges/day5.mo",
       "type": "motoko"
     },
     "MotokoBootCampChallenges_assets": {
