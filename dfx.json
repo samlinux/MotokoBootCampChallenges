@@ -1,17 +1,10 @@
 {
   "canisters": {
     "MotokoBootCampChallenges": {
-      "main": "src/MotokoBootCampChallenges/day6.mo",
-      "type": "motoko"
-    },
-    "day61": {
-      "main": "src/MotokoBootCampChallenges/day6-1.mo",
-      "type": "motoko"
-    },
-    "day62": {
-      "main": "src/MotokoBootCampChallenges/day6-2.mo",
+      "main": "src/MotokoBootCampChallenges/day6-3.mo",
       "type": "motoko"
     }
+    
   },
   "defaults": {
     "build": {
