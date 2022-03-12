@@ -53,6 +53,7 @@ actor {
   type Result<Ok, Err> = {#ok : Ok; #err : Err};
 
   public shared ({caller}) func mint() : async Result<(), Text> {
+    // tis is not working im 0.8.4 I think so !
     if(Principal.isAnonymous(caller)){
       return #err("You need to be authenticated to register");
     } else {
