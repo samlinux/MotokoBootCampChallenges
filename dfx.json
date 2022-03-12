@@ -1,21 +1,16 @@
 {
   "canisters": {
     "MotokoBootCampChallenges": {
-      "main": "src/MotokoBootCampChallenges/day5.mo",
+      "main": "src/MotokoBootCampChallenges/day6.mo",
       "type": "motoko"
     },
-    "MotokoBootCampChallenges_assets": {
-      "dependencies": [
-        "MotokoBootCampChallenges"
-      ],
-      "frontend": {
-        "entrypoint": "src/MotokoBootCampChallenges_assets/src/index.html"
-      },
-      "source": [
-        "src/MotokoBootCampChallenges_assets/assets",
-        "dist/MotokoBootCampChallenges_assets/"
-      ],
-      "type": "assets"
+    "day61": {
+      "main": "src/MotokoBootCampChallenges/day6-1.mo",
+      "type": "motoko"
+    },
+    "day62": {
+      "main": "src/MotokoBootCampChallenges/day6-2.mo",
+      "type": "motoko"
     }
   },
   "defaults": {
