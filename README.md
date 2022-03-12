@@ -11,3 +11,4 @@ Here you can find my daily challenges. Each day will have a *.mo file.
 - Challenge day6 = [day6.mo](./src/MotokoBootCampChallenges/day6.mo) 
 - Challenge day6 = [day6-1.mo](./src/MotokoBootCampChallenges/day6-1.mo) 
 - Challenge day6 = [day6-2.mo](./src/MotokoBootCampChallenges/day6-2.mo) 
+- Challenge day6 = [day6-3.mo](./src/MotokoBootCampChallenges/day6-3.mo) 
